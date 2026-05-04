@@ -1,0 +1,54 @@
+.certifications-section {
+  background-color: var(--backgroundColor);
+  padding: 90px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.certifications-section h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+
+.certifications-section h2 > span {
+  color: var(--accentColor);
+}
+
+.certifications-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.certification-card {
+  padding: 18px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.035);
+  font-size: 15px;
+  font-weight: 300;
+  color: rgba(234, 229, 236, 0.92);
+  transition: transform 0.2s ease, border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.certification-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(94, 234, 212, 0.35);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+@media only screen and (max-width: 900px) {
+  .certifications-section {
+    padding: 60px 0;
+  }
+  .certifications-section h2 {
+    font-size: 40px;
+    margin-bottom: 26px;
+  }
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

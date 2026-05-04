@@ -1,0 +1,72 @@
+.education-section {
+  background-color: var(--backgroundColor);
+  padding: 90px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.education-section h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+
+.education-section h2 > span {
+  color: var(--accentColor);
+}
+
+.education-card {
+  border-radius: 16px;
+  padding: 22px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.education-card h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 650;
+  color: rgba(234, 229, 236, 0.95);
+}
+
+.education-institute {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.85;
+}
+
+.education-meta {
+  margin-top: 18px;
+}
+
+.education-meta-item {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.education-label {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.education-value {
+  font-size: 20px;
+  font-weight: 650;
+  color: var(--accentColor);
+}
+
+@media only screen and (max-width: 900px) {
+  .education-section {
+    padding: 60px 0;
+  }
+  .education-section h2 {
+    font-size: 40px;
+    margin-bottom: 26px;
+  }
+}
+
