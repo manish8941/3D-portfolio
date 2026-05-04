@@ -1,15 +1,28 @@
-# My Portfolio Wesbite - Overview 🚀
+# 3D Portfolio
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+My latest Three.js portfolio built with React, TypeScript, GSAP, Three.js, WebGL, HTML, CSS, and JavaScript.
 
-## Instructions 🛠️
+## Preview
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+![Portfolio Preview](public/images/preview.png)
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## Setup
 
-![Portfolio-Preview](public/images/preview.png)
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Note
+
+This project uses GSAP trial plugins. For production hosting, check the GSAP Club plugin installation guidance:
+https://gsap.com/docs/v3/Installation/
 
 ## License
 
